@@ -54,6 +54,8 @@ Gazebo Version
 Gazebo 11.x is recommanded as a combination with ROS Noetic.
 Reference: http://gazebosim.org/tutorials/?tut=ros_wrapper_versions
 
+Make sure that ros_control package is correctly installed. The installation procedure can be find: https://classic.gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros
+
 Basic Usage
 -----------
 
