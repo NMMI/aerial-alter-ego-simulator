@@ -11,6 +11,7 @@ Installation Instructions - Ubuntu 20.04 with ROS Noetic
  $ wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
  $ sudo apt-get update
  $ sudo apt-get install ros-noetic-desktop-full ros-noetic-joy ros-noetic-octomap-ros ros-noetic-mavlink python-wstool python-catkin-tools protobuf-compiler libgoogle-glog-dev ros-noetic-control-toolbox ros-noetic-mavros
+ $ sudo apt-get install ros-noetic-ros-control ros-noetic-ros-controllers
  $ sudo rosdep init
  $ rosdep update
  $ source /opt/ros/noetic/setup.bash
@@ -53,8 +54,6 @@ Gazebo Version
 
 Gazebo 11.x is recommanded as a combination with ROS Noetic.
 Reference: http://gazebosim.org/tutorials/?tut=ros_wrapper_versions
-
-Make sure that ros_control package is correctly installed. The installation procedure can be find: https://classic.gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros
 
 Basic Usage
 -----------
